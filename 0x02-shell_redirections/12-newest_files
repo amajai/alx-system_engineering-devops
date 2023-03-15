@@ -1,2 +1,2 @@
 #!/bin/bash
-ls -t | fmt -s
+ls -t | cat
