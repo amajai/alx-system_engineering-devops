@@ -1,0 +1,2 @@
+#!/bin/bash
+head -12 | tail +2 | tr '\t' ',' | sort -t',' -nrk7 | cut -d, -f1
