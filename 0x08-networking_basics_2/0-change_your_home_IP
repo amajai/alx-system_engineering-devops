@@ -3,6 +3,6 @@
 HOSTFILE="/etc/hosts"
 HOSTFILE_COPY="$HOME/hosts.new"
 cp "$HOSTFILE" "$HOSTFILE_COPY"
-# sed -i "s/.*localhost$/127.0.0.2\tlocalhost/" "$HOSTFILE_COPY"
+sed -i "s/.*localhost$/127.0.0.2\tlocalhost/" "$HOSTFILE_COPY"
 sed -i "s/.*157.240.11.35.*$/8.8.8.8\tfacebook.com/" "$HOSTFILE_COPY"
 cp "$HOSTFILE_COPY" "$HOSTFILE"
