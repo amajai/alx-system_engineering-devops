@@ -1,0 +1,5 @@
+#! /usr/bin/env bash
+# Creates an RSA key pair.  
+Host 3.90.70.31
+    IdentityFile ~/.ssh/school
+    PasswordAuthentication no
