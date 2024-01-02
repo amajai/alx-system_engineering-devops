@@ -1,6 +1,6 @@
 #!/usr/bin/python3
 """
-module to gather data from an API
+module to gather data from an API to CSV
 """
 import requests
 import sys
