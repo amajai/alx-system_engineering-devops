@@ -7,6 +7,9 @@ import requests
 
 
 def number_of_subscribers(subreddit):
+    """
+    get number of subs from a subreddit
+    """
     try:
         url = f"https://www.reddit.com/r/{subreddit}/new.json"
         res = requests.get(url)
