@@ -2,7 +2,6 @@
 """
 Module for subreddit count api
 """
-from json import JSONDecodeError
 import requests
 
 
